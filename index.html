@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container img{ width: 180px; margin-top: 12px;}
+    /* .big-wrap{width: 100% ; height: 70vh; background: lightgray; padding-top: 10rem;} */
+    .wrapp{display: flex; justify-content: center; background: lightskyblue; width: 50%; height: 70vh;
+    position: relative; margin-top: 70px; margin-bottom: 10px; align-items: center;  margin-left: 23rem; box-shadow:8px 4px  ;}
+    @media (max-width: 400px) {
+      .wrapp{
+        display: flex; justify-content: center; align-items: flex-start; width: 100%; height: 70vh;
+        position: relative; margin-top: 20px; margin-bottom: 10px; align-items: start;  margin-left: 1rem; box-shadow:8px 4px  ;
+      }
+      .attribution{
+        font-size: 15px; text-align: center; margin-top: 5rem;
+      }
+      .container{
+        margin-top: 20px;
+      }
+    }
+  
+    
+    .card{display: block; justify-content: center; align-items: center; text-align: center; background: azure; height: 22rem; width:14rem ; border-radius: 10px;}
+  </style>
+</head>
+<body>
+
+      <div class="big-wrap">
+          <div class="wrapp">
+              <div class="container">
+                   <div class="card">
+                    <img src="./images/image-qr-code.png" alt="">
+                    <h3>improve your front-end <br> skill by building project</h3>
+                    <p>Lorem ipsum dolor, sit amet <br>
+                       consectetur adipisicing elit <br> 
+                       Praesentium, odit.</p>
+                   </div>
+                    
+              </div>
+          </div>
+      </div>
+            
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mayordev</a>.
+  </div>
+</body>
+</html>
